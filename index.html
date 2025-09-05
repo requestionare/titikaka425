@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>はじめてのWebサイト</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: "Helvetica", sans-serif;
-            text-align: center;
-            padding-top: 100px;
-        }
-        h1 {
-            color: #333399;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルなウェブサイト</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-    <h1>こんにちは、世界！</h1>
-    <p>これは最初のHTMLページです。</p>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>シンプルなウェブサイト</h1>
+  </header>
+
+  <!-- ナビゲーション -->
+  <nav>
+    <a href="#home">ホーム</a>
+    <a href="#about">概要</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <!-- セクション：ホーム -->
+  <section id="home">
+    <h2>ようこそ！</h2>
+    <p>これはシンプルなウェブサイトの例です。</p>
+  </section>
+
+  <!-- セクション：概要 -->
+  <section id="about">
+    <h2>概要</h2>
+    <p>このサイトは基本的なHTMLの使い方を学ぶためのものです。</p>
+  </section>
+
+  <!-- セクション：お問い合わせ -->
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>ご質問があれば、メールでご連絡ください。</p>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2025 シンプルなウェブサイト</p>
+  </footer>
+
 </body>
 </html>
